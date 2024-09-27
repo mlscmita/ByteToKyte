@@ -37,7 +37,7 @@ Tags : <br />
 
 
 ### JS(Javascript)
-It's the brain of the website , all logical part is created by javascript
-Concepts:
-    DOM Manipulation
-    functions
+It's the brain of the website , all logical part is created by javascript<br />
+Concepts:<br />
+    DOM Manipulation<br />
+    functions<br />
