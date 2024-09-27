@@ -6,34 +6,34 @@
 
 
 ### HTML
-It stands for Hyper Text Markup Language
-Tags : 
-     HTML
-     Head
-        title
-        link
-     body
-        nav
-        section
-        div
-        p
-        heading
-        a
+It stands for Hyper Text Markup Language <br />
+Tags : <br />
+     HTML<br />
+     Head<br />
+        title<br />
+        link<br />
+     body<br />
+        nav<br />
+        section<br />
+        div<br />
+        p<br />
+        heading<br />
+        a<br />
 
 
 ### CSS
-It stands for Cascading stylesheet 
-Properties : 
-Tags : 
-      padding
-      margin 
-      text-color
-      background-color
-      opacity
-      flex
-      box-sizing
-      z-index
-      positions - sticky , static , absolute , relative , fixed
+It stands for Cascading stylesheet <br />
+Properties : <br />
+Tags : <br />
+      padding<br />
+      margin <br />
+      text-color<br />
+      background-color<br />
+      opacity<br />
+      flex<br />
+      box-sizing<br />
+      z-index<br />
+      positions - sticky , static , absolute , relative , fixed<br />
 
 
 ### JS(Javascript)
