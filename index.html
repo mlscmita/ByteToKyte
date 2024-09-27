@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+ 
+        <nav>
+               <a id="home" onclick="changeColor(this)" href="#">Home</a>
+                <a onclick="changeColor(this)" href="#about">About</a>
+                <a onclick="changeColor(this)" href="#projects">Projects</a>
+                <a onclick="changeColor(this)" href="#experience">Experience</a>
+        </nav>
+
+        <section id="hero" >
+            <img src="./assests/heroImg.jpg" alt="Profile Picture">
+            <h1>Andrew David</h1>
+            <!-- <h2>Full-Stack Developer</h2> -->
+            <div class="cta-buttons">
+                <button>Get in Touch</button>
+                <button>Download CV</button>
+                <button>Linkedin</button>
+                <button>Github</button>
+            </div>
+        </section>
+
+        <section id="about">
+                <h2>ABOUT ME</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aut sunt quibusdam provident minus deserunt architecto delectus aliquid dolores magni ratione illum nesciunt fuga nostrum commodi alias ullam numquam, eius ut a quasi sed perferendis nam! Hic, laboriosam ipsa? Eos debitis asperiores placeat accusantium itaque! Deleniti?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta incidunt explicabo similique. Aliquam corrupti quo adipisci repudiandae distinctio. Repellat, obcaecati!</p>
+        </section>
+
+        <section id="skills">
+            
+                <h2>Skills</h2>
+               <div>
+                 <span>Nodejs</span>
+                 <span>HTML</span>
+                 <span>CSS</span>
+                 <span>JAVASCRIPT</span>
+               </div>
+       
+        </section>
+
+        <section id="projects" >
+            <div id="project-title">
+
+                <h2>PROJECTS</h2>
+                <img width="100px" src="https://media.tenor.com/QhRvvwpCdVoAAAAi/rocket.gif" alt="Logo"> 
+
+            </div>
+
+            <div class="project-flex">
+                <div class="project-card" >
+                    <img src="./assests/project-thumbnail-1.png" alt="HTML Tutorial">
+                    <div class="project-info">
+                        <h3>POWER OF HTML</h3>
+                        <p>HTML TUTORIAL</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./assests/project-thumbnail-2.png" alt="CSS Tutorial">
+                    <div class="project-info">
+                        <h3>UNLOCK CSS MAGIC</h3>
+                        <p>CSS TUTORIAL</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>EXPERIENCE</h2>
+            <div class="experience-item">
+              <div>
+                  <h3><img src="./assests/search.png" alt="Google Logo"> 
+Senior Software Engineer  </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo unde id, quo a ipsam deleniti aliquam placeat iure eveniet! Quo temporibus laborum soluta architecto delectus. Iste voluptatum ipsa aliquam ea commodi nemo eos unde, provident, et est error quasi dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis id, repellat ex molestias dolor suscipit. Quae repellat quibusdam tempora aspernatur.</p>
+                <p>June 2024 - Sept 2024</p>
+            </div>
+            </div>
+        </section>
+
+
+    </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="script.js" defer></script>
+    
+</body>
+
+
+
+</html>
