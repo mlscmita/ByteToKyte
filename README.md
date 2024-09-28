@@ -1,4 +1,6 @@
 https://signup.azure.com/studentverification?offerType=1
+
+https://azure.microsoft.com/en-us/free/students
 # mlsc-portfolio-project
 ## Introduction to HTML , CSS and JS
 
